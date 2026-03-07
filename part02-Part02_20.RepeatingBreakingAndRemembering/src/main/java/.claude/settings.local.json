@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/nikolajmortensen/Library/Application Support/tmc/vscode/mooc-java-programming-i/part02-Part02_20.RepeatingBreakingAndRemembering/**)",
+      "Read(//Users/nikolajmortensen/Library/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

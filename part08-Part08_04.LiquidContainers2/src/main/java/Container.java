@@ -1,0 +1,39 @@
+public class Container {
+    public int amount;
+    public int maxAmount;
+
+    public Container() {
+        this.amount = 0;
+        this.maxAmount = 100;
+    }
+
+    public int contains() {
+        return this.amount;
+    }
+
+    public void add(int amount) {
+        if (amount > 0) {
+            this.amount += amount;
+
+            if (this.amount >= 100) {
+                this.amount = 100;
+            }
+        } 
+    }
+
+    public void remove(int amount) {
+        if (amount > 0) {
+            this.amount -= amount;
+
+            if (this.amount <= 0) {
+                this.amount = 0;
+            }
+        }
+    }
+
+    public String toString() {
+        return this.amount + "/" + this.maxAmount; 
+    }
+
+
+}

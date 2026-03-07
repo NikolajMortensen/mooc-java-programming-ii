@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/nikolajmortensen/Library/Application Support/tmc/vscode/mooc-java-programming-i/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
