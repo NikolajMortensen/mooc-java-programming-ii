@@ -1,0 +1,6 @@
+*.class
+*.txt
+*.lst
+bin/
+target/
+.tmc/
